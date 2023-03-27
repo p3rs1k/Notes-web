@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  notes-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: notes-web
+    restart: always
+    ports:
+      - "5000:5000"
+    image: notes-web

@@ -23,9 +23,11 @@ or(Linux/Mac) <br>
 5. Install the dependencies using:<br>
 `pip install -r requirements.txt`
 6. Paste your secret key into the `SECRET_KEY` variable in `.env`
-7. Run the app using python app.py. <br>
-`flask run`
-8. Open the app in your web browser at http://localhost:5000/.
+7. Run the application using: 
+ - python: `flask run` <br>
+
+ - docker container: `docker-compose up` <br>
+8. Open the app in your web browser at http://0.0.0.0:5000/.
 
 Screenshots of the Login, Notes, and Signup pages.
 
