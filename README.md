@@ -22,12 +22,10 @@ or(Linux/Mac) <br>
     `source venv/bin/activate`
 5. Install the dependencies using:<br>
 `pip install -r requirements.txt`
-6. Rename `.env-sample` to `.env` using: <br>
-`mv .env-sample .env`
-7. Paste your secret key into the `SECRET_KEY` variable
-8. Run the app using python app.py. <br>
+6. Paste your secret key into the `SECRET_KEY` variable in `.env`
+7. Run the app using python app.py. <br>
 `flask run`
-9. Open the app in your web browser at http://localhost:5000/.
+8. Open the app in your web browser at http://localhost:5000/.
 
 Screenshots of the Login, Notes, and Signup pages.
 

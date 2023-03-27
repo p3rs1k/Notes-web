@@ -3,7 +3,6 @@ __pycache__/
 
 venv/
 
-.env
 .idea
 
 # Flask stuff:
